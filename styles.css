@@ -1,0 +1,20 @@
+.error-icon {
+    display: none;
+  }
+  
+  .centered-box {
+    width: 50%;
+    margin: 100px auto;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08);
+    border-radius: 10px;
+  }
+
+  @media (max-width: 768px) {
+    .centered-box {
+      width: 90%;
+      padding: 15px;
+      margin: 60px auto;
+      border-radius: 10px;
+    }
+  }
